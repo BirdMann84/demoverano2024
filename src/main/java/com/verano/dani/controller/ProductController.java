@@ -28,6 +28,8 @@ public class ProductController {
 
         p.setName(request.getName());
         p.setPrice(request.getPrice());
+        p.setWeigh(request.getWeigh());
+        p.setAvailable(request.getAvailable());
 
         this.productService.save(p);
 

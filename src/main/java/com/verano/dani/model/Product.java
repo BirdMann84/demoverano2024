@@ -17,4 +17,10 @@ public class Product {
 
     private Float price;
 
+    private Float weigh ;
+
+    private Boolean available ;
+
+
+
 }

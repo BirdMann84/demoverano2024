@@ -9,7 +9,13 @@ import java.io.Serializable;
 @Getter
 @Setter
 public class CreateProductRequest implements Serializable {
+
     @JsonProperty(value = "name")
     public String name;
+
     public Float price;
+
+    private Float weigh ;
+
+    private Boolean available ;
 }
